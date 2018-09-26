@@ -1,0 +1,180 @@
+<html>
+    <head>
+        <title>FAVOUR</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/w3.css">
+        <link rel="stylesheet" href="css/font.css">
+
+        <style>
+            body, h1,h2,h3,h4,h5,h6{
+                font-family: "Montserrat", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .w3-row-padding img{
+                margin-bottom: 12px;
+            }
+            .w3-sidebar{
+                width: 120px;
+                background: #222;
+            }
+            #main{
+                margin-left: 120px;
+
+            }
+            @media only screen and (max-width: 600px){
+                #main{
+                    margin-left: 0;
+                }
+            }
+        </style>
+
+
+    </head>
+
+    <body class="w3-black">
+        <!-- Icon Bar (Sidebar - hidden on small screens) -->
+        <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+            <!-- Avatar image in top left corner -->
+            <img src="image.jpg" style="width: 100%; opacity:0.3">
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+                <i class="fa fa-home w3-xxlarge"></i>
+                <p>HOME</p>
+            </a>
+            <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+                <i class="fa fa-user w3-xxlarge"></i>
+                <p>ABOUT</p>
+            </a>
+            <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+                <i class="fa fa-eye w3-xxlarge"></i>
+                <p>PHOTOS</p>
+            </a>
+            <a href="#contact" class="w3-bar-item  w3-button w3-padding-large w3-hover-black">
+                <i class="fa fa-envelope w3-xxlarge"></i>
+                <p>CONTACT</p>
+            </a>
+        </nav>
+
+        <!-- Navbar on small screens (Hidden on medium and large screens) -->
+        <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+            <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+                <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+                <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+                <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+                <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+            </div>
+        </div>
+
+        <!-- Page -->
+        <div class="w3-padding-large" id="main">
+            <!-- Header/Home -->
+            <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+                <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Favour Okunowo.</h1>
+                <p>Not Your Regular Favour.</p>
+                <img src="image.jpg" alt="Favour" class="w3-image" width="992" height="1108">
+            </header>
+
+            <!-- About -->
+            <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+                <h2 class="w3-text-light-grey">Favour Okunowo</h2>
+                <hr style="width:200px" class="opacity">
+                <p>
+                   Like I said, I'm not any regular Favour. I go by the name Favour Okunowo. I am a student of COVENANT UNIVERSITY. 
+                   I'm currently in 300 level studying Industrial Physics - Electronics and IT Applications.
+                   I was born on the 17<sup>th</sup> of May in the year 2000. I am average in height. I love watching movies</i> and Tv series <i class="fa fa-tv"></i>.
+                   I don't really have much friends but the few I have, they are worth having. Sometimes, I just develop a sudden vibe to draw <i class="fa fa-pen"></i> and whatever
+                   I draw always make sense. I was born and bred in Lagos but I originate from Ogun State. I am slightly light in complexion. I love Pouneded Yam
+                   with Egusi and Assorted meat. Most people think I am gentle but they are extremely wrong. I always behave my best at first contact but as time
+                   goes on, you start to see the real me but that doesn't make you love me less. I also love listening to songs <i class="fa fa-music"></i>. I come from a
+                   family of 5 of which I'm the last born out of three boys <i class="fa fa-users"></i>. One beautiful thing about me is that I have a loving spirit and I
+                   don't give anyone special treatment <i class="fa fa-syringe"></i>.
+
+                </p>
+                <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+                <p class="w3-wide">Leadership</p>
+                <div class="w3-white">
+                    <div class="w3-dark-grey w3-center" style="height:28px;width:80%">80%</div>
+                </div>
+                <p class="w3-wide">Art & Design</p>
+                <div class="w3-white">
+                    <div class="w3-dark-grey w3-center" style="height:28px;width:50%">50%</div>
+                </div><p class="w3-wide">Programming</p>
+                <div class="w3-white">
+                    <div class="w3-dark-grey w3-center" style="height:28px;width:10%">10%</div>
+                </div><br>
+                <h3 class="w3-padding-16 w3-text-light-grey">My Hobbies</h3>
+                    <h6>
+                        <li>Running</li>
+                        <li>Sleeping</li>
+                        <li>Talking</li>
+                        <li>Jumping</li>
+                        <li>Making New Friends</li>
+                    </h6>
+            </div>
+
+            <!-- Portfolio Section -->
+            <div class="w3-padding-64 w3-content" id="photos">
+                <h2 class="w3-text-light-grey">My Photos</h2>
+                <hr style="width:200px" class="w3-opacity">
+
+                <!-- Grid for photos -->
+                <div class="w3-row-padding" style="margin:0 -16px">
+                    <div class="w3-half">
+                    <img src="image7.jpg" style="width:100%">
+                    <img src="image3.jpg" style="width:100%">
+                    <img src="image2.jpg" style="width:100%">
+                </div>
+
+                <div class="w3-half">
+                    <img src="image1.jpg" style="width:100%">
+                    <img src="image4.jpg" style="width:100%">
+                    <img src="image5.jpg" style="width:100%">
+                    <img src="image6.jpg" style="width:100%">
+                </div>
+                <!-- End photo grid -->
+            </div>
+            <!-- End Portfolio Section -->
+            
+            <!-- Contact Section -->
+            <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+                <h2 class="w3-text-light-grey">Contact Me</h2>
+                <hr style="width:200px" class="w3-opacity">
+
+                <div class="w3-section">
+                    <p><i class="fa fa-map-marked-alt fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Lagos, NG</p>
+                    <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +2347030935403</p>
+                    <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: toluwaniokunowo@gmail.com</p>
+                </div><br>
+                <p>Wanna get in touch? Send me a message:</p>
+
+                <form action="/action_page.php" target="_blank">
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+                    <p>
+                    <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                    </p>
+                </form>
+                <!-- End Contact Section -->
+            </div>
+
+            <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+                <i class="fab fa-facebook w3-hover-opacity"></i>
+                <i class="fab fa-instagram w3-hover-opacity"><a href="https://instagram.com/iztolu"></a></i>
+                <i class="fab fa-snapchat-ghost w3-hover-opacity"></i>
+                <i class="fab fa-pinterest-p w3-hover-opacity"></i>
+                <i class="fab fa-twitter w3-hover-opacity"></i>
+                <i class="fab fa-linkedin-in w3-hover-opacity"></i>
+                <!-- End footer -->
+            </footer>
+                
+            <!-- END PAGE CONTENT -->
+
+
+
+        </div>
+    </body>
+</html>
